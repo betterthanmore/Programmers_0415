@@ -17,8 +17,8 @@ public class ReapeatScripts : MonoBehaviour
 
         for(int i = 0; i<a; i++)                    //a번 반복하여 s1에 저장된 문자열을 반복함
         {
-            Console.WriteLine(s1);                  //Console.WriteLine에 s1 문자열을 집어넣고, 이를 for문 안에 집어넣으면서 해당 문자열을 반복하게 함
-        }
+            Console.Write(s1);                  //Console.Write에 s1 문자열을 집어넣고, 이를 for문 안에 집어넣으면서 해당 문자열을 반복하게 함
+        }                                       //Console.WriteLine은 ()안의 내용을 출력 후, 줄을 바꿈
 
         //for (시작 값; 조건; 증가/감소)                    
         //{
